@@ -1,337 +1,322 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Ravi Teja - Personal Portfolio</title>
-<!--
-    - favicon
-  -->
-<link href="./assets/images/logo.ico" rel="shortcut icon" type="image/x-icon"/>
-<!--
-    - custom css link
-  -->
-<link href="./assets/css/style.css" rel="stylesheet"/>
-<!--
-    - google font link
-  -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
-</head>
-<body>
-<!--
-    - #MAIN
-  -->
-<main>
-<!--
-      - #SIDEBAR
-    -->
-<aside class="sidebar" data-sidebar="">
-<div class="sidebar-info">
-<figure class="avatar-box">
-<img alt="Richard hanrick" src="./assets/images/myavatar.jpg" width="80"/>
-</figure>
-<div class="info-content">
-<h1 class="name" title="Ravi Teja Gorantla">Ravi Teja Gorantla</h1>
-<p class="title">Data Analyst/Senior Software Engineer</p>
-</div>
-<button class="info_more-btn" data-sidebar-btn="">
-<span>Show Contacts</span>
-<ion-icon name="chevron-down"></ion-icon>
-</button>
-</div>
-<div class="sidebar-info_more">
-<div class="separator"></div>
-<ul class="contacts-list">
-<li class="contact-item">
-<div class="icon-box">
-<ion-icon name="mail-outline"></ion-icon>
-</div>
-<div class="contact-info">
-<p class="contact-title">Email</p>
-<a class="contact-link" href="mailto:graviteja28@gmail.com">graviteja28@gmail.com</a>
-</div>
-</li>
-<li class="contact-item">
-<div class="icon-box">
-<ion-icon name="phone-portrait-outline"></ion-icon>
-</div>
-<div class="contact-info">
-<p class="contact-title">Phone</p>
-<a class="contact-link" href="tel:+91-8498839816">+91-8498839816</a>
-</div>
-</li>
-<li class="contact-item">
-<div class="icon-box">
-<ion-icon name="location-outline"></ion-icon>
-</div>
-<div class="contact-info">
-<p class="contact-title">Location</p>
-<address>Bangalore, KA, India</address>
-</div>
-</li>
-</ul>
-<div class="separator"></div>
-<ul class="social-list">
-<li class="social-item">
-<a class="social-link" href="https://www.linkedin.com/in/ravi-teja-gorantla/">
-<ion-icon name="logo-linkedin"></ion-icon>
-</a>
-</li>
-<li class="social-item">
-<a class="social-link" href="https://github.com/graviteja28">
-<ion-icon name="logo-github"></ion-icon>
-</a>
-</li>
-<li class="social-item">
-<a class="social-link" href="https://www.instagram.com/urs_loving_ravi//">
-<ion-icon name="logo-instagram"></ion-icon>
-</a>
-</li>
-</ul>
-</div>
-</aside>
-<!--
-      - #main-content
-    -->
-<div class="main-content">
-<!--
-        - #NAVBAR
-      -->
-<nav class="navbar">
-<ul class="navbar-list">
-<li class="navbar-item">
-<button class="navbar-link active" data-nav-link="">About</button>
-</li>
-<li class="navbar-item">
-<button class="navbar-link" data-nav-link="">Resume</button>
-</li>
-<!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
-<li class="navbar-item">
-<button class="navbar-link" data-nav-link="">Contact</button>
-</li>
-</ul>
-</nav>
-<!--
-        - #ABOUT
-      -->
-<article class="about active" data-page="about">
-<header>
-<h2 class="h2 article-title">Hi, I'm Ravi teja</h2>
-</header>
-<section class="about-text">
-<p>I'm Ravi Teja, a Senior Software Engineer at Samsung R&amp;D Bangalore, specializing in LTE and NR network modem development. With experience in debugging, system analysis, and automation, I have contributed to enhancing performance and reliability in 4G and 5G networks.</p>
-</section>
-<!--
-          - service
-        -->
-
-<!--
-          - testimonials
-        -->
-<!--
-          - testimonials modal
-        -->
-<div class="modal-container" data-modal-container="">
-<div class="overlay" data-overlay=""></div>
-<section class="testimonials-modal">
-<button class="modal-close-btn" data-modal-close-btn="">
-<ion-icon name="close-outline"></ion-icon>
-</button>
-<div class="modal-img-wrapper">
-<figure class="modal-avatar-box">
-<img alt="Daniel lewis" data-modal-img="" src="./assets/images/avatar-1.png" width="80"/>
-</figure>
-<img alt="quote icon" src="./assets/images/icon-quote.svg"/>
-</div>
-<div class="modal-content">
-<h4 class="h3 modal-title" data-modal-title="">Daniel lewis</h4>
-<time datetime="2021-06-14">14 June, 2021</time>
-<div data-modal-text="">
-<p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-</div>
-</div>
-</section>
-</div>
-<!--
-          - clients
-        -->
-</article>
-<!--
-        - #RESUME
-      -->
-<article class="resume" data-page="resume">
-<header>
-<h2 class="h2 article-title">Resume</h2>
-</header>
-<section class="timeline">
-<div class="title-wrapper">
-<div class="icon-box">
-<ion-icon name="book-outline"></ion-icon>
-</div>
-<h3 class="h3">Education</h3>
-</div>
-<ol class="timeline-list">
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Madanapalle Institute of Technology and Science</h4>
-<span>2017 — 2021</span>
-<p class="timeline-text">Bachelor of Technology in Electronics and Communication Engineering, graduated with a CGPA of 7.94.</p>
-</li>
-
-</ol>
-</section>
-<section class="timeline">
-<div class="title-wrapper">
-<div class="icon-box">
-<ion-icon name="book-outline"></ion-icon>
-</div>
-<h3 class="h3">Experience</h3>
-</div>
-<ol class="timeline-list">
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Senior Software Engineer - Samsung Electronics</h4>
-<span>AUG 2022 — Present</span>
-<p class="timeline-text">• Developed and optimized PUCCH (Physical Uplink Control Channel) solutions for LTE and NR networks.
-• Automated models to reduce manual dependencies, improving efficiency by 20%.
-• Collaborated with cross-functional teams to enhance modem stability and performance.</p>
-</li>
-
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Associate Software Engineer - Legato health Technologies</h4>
-<span>JUN 2021 — AUG 2022</span>
-<p class="timeline-text">•	Debugged code and located root causes of problems by reviewing configuration files and logs.  
-•	Performed system analysis, documentation, testing, implementation, and user support for platform transitions.  
-•	Contributed to mock-ups, email campaigns, and social media content.  
-•	Performed market analysis and researched the latest trends.  
-•	Designed and developed schema data models.  
-•	Developed tables, views, and materialized views using SQL.  
-•	Recommended data standardization and usage for the protection of data integrity. 
-</p>
-</li>
-
-</ol>
-</section>
-<section class="skill">
-<h3 class="h3 skills-title">My skills</h3>
-<ul class="skills-list content-card">
-<li class="skills-item">
-<div class="title-wrapper">
-<h5 class="h5">Big Data Technologies :</h5>
-<data value="80">Python, Shell Scripting, SQL</data>
-</div>
-<!-- <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div> -->
-</li>
-<li class="skills-item">
-<div class="title-wrapper">
-<h5 class="h5">Programming Skills :</h5>
-<data value="70">Networking: LTE, NR (5G)</data>
-</div>
-<!-- <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div> -->
-</li>
-<li class="skills-item">
-<div class="title-wrapper">
-<h5 class="h5">Libraries :</h5>
-<data value="50">Microsoft SQL Server, Salesforce Marketing Cloud</data>
-</div>
-<!-- <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div> -->
-</li>
-<li class="skills-item">
-<div class="title-wrapper">
-<h5 class="h5">Cloud Services :</h5>
-<data value="90">Adobe Campaign, Data Analysis</data>
-</div>
-<!-- <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div> -->
-</li>
-<li class="skills-item">
-<div class="title-wrapper">
-<h5 class="h5">Databases :</h5>
-<data value="50">MySQL, SQL Server, Oracle, HBase</data>
-</div>
-<!-- <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div> -->
-</li>
-<li class="skills-item">
-<div class="title-wrapper">
-<h5 class="h5">visualization Tools :</h5>
-<data value="50">Tableau, MS EXCEL, Google Sheets</data>
-</div>
-<!-- <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div> -->
-</li>
-</ul>
-</section>
-</article>
-<!--
-        - #PORTFOLIO
-      -->
-<!-- </ul>
-
-        </section>
-
-      </article> -->
-<!--
-        - #PORTFOLIO
-      -->
-<!--
-        - #CONTACT
-      -->
-<article class="contact" data-page="contact">
-<header>
-<h2 class="h2 article-title">Contact</h2>
-</header>
-<!-- <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section> -->
-<section class="contact-form">
-<h3 class="h3 form-title">Contact Form</h3>
-<form action="https://formspree.io/f/mdovydyk" class="form" data-form="" method="post">
-<div class="input-wrapper">
-<input class="form-input" data-form-input="" name="fullname" placeholder="Full name" required="" type="text"/>
-<input class="form-input" data-form-input="" name="email" placeholder="Email address" required="" type="email"/>
-</div>
-<textarea class="form-input" data-form-input="" name="message" placeholder="Your Message" required=""></textarea>
-<button class="form-btn" data-form-btn="" disabled="" type="submit">
-<ion-icon name="paper-plane"></ion-icon>
-<span>Send Message</span>
-</button>
-</form>
-</section>
-</article>
-</div>
-</main>
-<!--
-    - custom js link
-  -->
-<script src="./assets/js/script.js"></script>
-<!--
-    - ionicon link
-  -->
-<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
-<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+   <head>
+      <meta charset="utf-8"/>
+      <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+      <title>Ravi Teja - Personal Portfolio</title>
+      <!--
+         - favicon
+         -->
+      <link href="./assets/images/logo.ico" rel="shortcut icon" type="image/x-icon"/>
+      <!--
+         - custom css link
+         -->
+      <link href="./assets/css/style.css" rel="stylesheet"/>
+      <!--
+         - google font link
+         -->
+      <link href="https://fonts.googleapis.com" rel="preconnect"/>
+      <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+   </head>
+   <body>
+      <!--
+         - #MAIN
+         -->
+      <main>
+         <!--
+            - #SIDEBAR
+            -->
+         <aside class="sidebar" data-sidebar="">
+            <div class="sidebar-info">
+               <figure class="avatar-box">
+                  <img alt="Richard hanrick" src="./assets/images/myavatar.jpg" width="80"/>
+               </figure>
+               <div class="info-content">
+                  <h1 class="name" title="Ravi Teja Gorantla">Ravi Teja Gorantla</h1>
+                  <p class="title">Data Analyst/Senior Software Engineer</p>
+               </div>
+               <button class="info_more-btn" data-sidebar-btn="">
+                  <span>Show Contacts</span>
+                  <ion-icon name="chevron-down"></ion-icon>
+               </button>
+            </div>
+            <div class="sidebar-info_more">
+               <div class="separator"></div>
+               <ul class="contacts-list">
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a class="contact-link" href="mailto:graviteja28@gmail.com">graviteja28@gmail.com</a>
+                     </div>
+                  </li>
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+                        <a class="contact-link" href="tel:+91-8498839816">+91-8498839816</a>
+                     </div>
+                  </li>
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>Bangalore, KA, India</address>
+                     </div>
+                  </li>
+               </ul>
+               <div class="separator"></div>
+               <ul class="social-list">
+                  <li class="social-item">
+                     <a class="social-link" href="https://www.linkedin.com/in/ravi-teja-gorantla/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a class="social-link" href="https://github.com/graviteja28">
+                        <ion-icon name="logo-github"></ion-icon>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a class="social-link" href="https://www.instagram.com/urs_loving_ravi//">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </aside>
+         <!--
+            - #main-content
+            -->
+         <div class="main-content">
+            <!--
+               - #NAVBAR
+               -->
+            <nav class="navbar">
+               <ul class="navbar-list">
+                  <li class="navbar-item">
+                     <button class="navbar-link active" data-nav-link="about">About</button>
+                  </li>
+                  <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link="resume">Resume</button>
+                  </li>
+                  <!-- <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link>Blog</button>
+                     </li> -->
+                  <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link="contact">Contact</button>
+                  </li>
+               </ul>
+            </nav>
+            <!--
+               - #ABOUT
+               -->
+            <article class="about active" data-page="about">
+               <header>
+                  <h2 class="h2 article-title">Hi, I'm Ravi teja</h2>
+               </header>
+               <section class="about-text">
+                  <p>I'm Ravi Teja, a Senior Software Engineer at Samsung R&amp;D Bangalore, specializing in LTE and NR network modem development. With experience in debugging, system analysis, and automation, I have contributed to enhancing performance and reliability in 4G and 5G networks.</p>
+               </section>
+               <!--
+                  - service
+                  -->
+               <!--
+                  - testimonials
+                  -->
+               <!--
+                  - testimonials modal
+                  -->
+               <div class="modal-container" data-modal-container="">
+                  <div class="overlay" data-overlay=""></div>
+                  <section class="testimonials-modal">
+                     <button class="modal-close-btn" data-modal-close-btn="">
+                        <ion-icon name="close-outline"></ion-icon>
+                     </button>
+                     <div class="modal-img-wrapper">
+                        <figure class="modal-avatar-box">
+                           <img alt="Daniel lewis" data-modal-img="" src="./assets/images/avatar-1.png" width="80"/>
+                        </figure>
+                        <img alt="quote icon" src="./assets/images/icon-quote.svg"/>
+                     </div>
+                     <div class="modal-content">
+                        <h4 class="h3 modal-title" data-modal-title="">Daniel lewis</h4>
+                        <time datetime="2021-06-14">14 June, 2021</time>
+                        <div data-modal-text="">
+                           <p>
+                              Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                              lot of experience
+                              and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                              consectetur adipiscing
+                              elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                           </p>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+               <!--
+                  - clients
+                  -->
+            </article>
+            <!--
+               - #RESUME
+               -->
+            <article class="resume" data-page="resume">
+               <header>
+                  <h2 class="h2 article-title">Resume</h2>
+               </header>
+               <section class="timeline">
+                  <div class="title-wrapper">
+                     <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                     </div>
+                     <h3 class="h3">Education</h3>
+                  </div>
+                  <ol class="timeline-list">
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Madanapalle Institute of Technology and Science</h4>
+                        <span>2017 — 2021</span>
+                        <p class="timeline-text">Bachelor of Technology in Electronics and Communication Engineering, graduated with a CGPA of 7.94.</p>
+                     </li>
+                  </ol>
+               </section>
+               <section class="timeline">
+                  <div class="title-wrapper">
+                     <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                     </div>
+                     <h3 class="h3">Experience</h3>
+                  </div>
+                  <ol class="timeline-list">
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Senior Software Engineer - Samsung Electronics</h4>
+                        <span>AUG 2022 — Present</span>
+                        <p class="timeline-text">• Developed and optimized PUCCH (Physical Uplink Control Channel) solutions for LTE and NR networks.
+                           • Automated models to reduce manual dependencies, improving efficiency by 20%.
+                           • Collaborated with cross-functional teams to enhance modem stability and performance.
+                        </p>
+                     </li>
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Associate Software Engineer - Legato health Technologies</h4>
+                        <span>JUN 2021 — AUG 2022</span>
+                        <p class="timeline-text">•	Debugged code and located root causes of problems by reviewing configuration files and logs.  
+                           •	Performed system analysis, documentation, testing, implementation, and user support for platform transitions.  
+                           •	Contributed to mock-ups, email campaigns, and social media content.  
+                           •	Performed market analysis and researched the latest trends.  
+                           •	Designed and developed schema data models.  
+                           •	Developed tables, views, and materialized views using SQL.  
+                           •	Recommended data standardization and usage for the protection of data integrity. 
+                        </p>
+                     </li>
+                  </ol>
+               </section>
+               <section class="skill">
+                  <h3 class="h3 skills-title">My skills</h3>
+                  <ul class="skills-list content-card">
+                     <li class="skills-item">
+                        <div class="title-wrapper">
+                           <h5 class="h5">Big Data Technologies :</h5>
+                           <data value="80">Python, Shell Scripting, SQL</data>
+                        </div>
+                        <!-- <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 80%;"></div>
+                           </div> -->
+                     </li>
+                     <li class="skills-item">
+                        <div class="title-wrapper">
+                           <h5 class="h5">Programming Skills :</h5>
+                           <data value="70">Networking: LTE, NR (5G)</data>
+                        </div>
+                        <!-- <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 70%;"></div>
+                           </div> -->
+                     </li>
+                     <li class="skills-item">
+                        <div class="title-wrapper">
+                           <h5 class="h5">Libraries :</h5>
+                           <data value="50">Microsoft SQL Server, Salesforce Marketing Cloud</data>
+                        </div>
+                        <!-- <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 50%;"></div>
+                           </div> -->
+                     </li>
+                     <li class="skills-item">
+                        <div class="title-wrapper">
+                           <h5 class="h5">Cloud Services :</h5>
+                           <data value="90">Adobe Campaign, Data Analysis</data>
+                        </div>
+                        <!-- <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 90%;"></div>
+                           </div> -->
+                     </li>
+                     <li class="skills-item">
+                        <div class="title-wrapper">
+                           <h5 class="h5">Databases :</h5>
+                           <data value="50">MySQL, SQL Server, Oracle, HBase</data>
+                        </div>
+                        <!-- <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 50%;"></div>
+                           </div> -->
+                     </li>
+                     <li class="skills-item">
+                        <div class="title-wrapper">
+                           <h5 class="h5">visualization Tools :</h5>
+                           <data value="50">Tableau, MS EXCEL, Google Sheets</data>
+                        </div>
+                        <!-- <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 50%;"></div>
+                           </div> -->
+                     </li>
+                  </ul>
+               </section>
+            </article>
+            <!--
+               - #CONTACT
+               -->
+            <article class="contact" data-page="contact">
+               <header>
+                  <h2 class="h2 article-title">Contact</h2>
+               </header>
+               <!-- <section class="mapbox" data-mapbox>
+                  <figure>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                      width="400" height="300" loading="lazy"></iframe>
+                  </figure>
+                  </section> -->
+               <section class="contact-form">
+                  <h3 class="h3 form-title">Contact Form</h3>
+                  <form action="https://formspree.io/f/mdovydyk" class="form" data-form="" method="post">
+                     <div class="input-wrapper">
+                        <input class="form-input" data-form-input="" name="fullname" placeholder="Full name" required="" type="text"/>
+                        <input class="form-input" data-form-input="" name="email" placeholder="Email address" required="" type="email"/>
+                     </div>
+                     <textarea class="form-input" data-form-input="" name="message" placeholder="Your Message" required=""></textarea>
+                     <button class="form-btn" data-form-btn="" disabled="" type="submit">
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                     </button>
+                  </form>
+               </section>
+            </article>
+         </div>
+      </main>
+      <!--
+         - custom js link
+         -->
+      <script src="./assets/js/script.js"></script>
+      <!--
+         - ionicon link
+         -->
+      <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+      <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   </body>
 </html>
